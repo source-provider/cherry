@@ -1,0 +1,114 @@
+﻿<Window x:Class="CherryApp.Loader"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CherryApp"
+        mc:Ignorable="d"
+        Title="Loader" Height="95" Width="410"
+        AllowsTransparency="True" Topmost="True" ResizeMode="NoResize" WindowStyle="None" 
+        Background="Transparent" WindowStartupLocation="CenterScreen" MouseLeftButtonDown="Window_MouseLeftButtonDown">
+    <Window.Resources>
+        <SolidColorBrush x:Key="ProgressBar.Progress" Color="#FF06B025"/>
+        <SolidColorBrush x:Key="ProgressBar.Background" Color="#FFE6E6E6"/>
+        <SolidColorBrush x:Key="ProgressBar.Border" Color="#FFBCBCBC"/>
+        <Style x:Key="ProgressBarCorners" TargetType="{x:Type ProgressBar}">
+            <Setter Property="Foreground" Value="{StaticResource ProgressBar.Progress}"/>
+            <Setter Property="Background" Value="{StaticResource ProgressBar.Background}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource ProgressBar.Border}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type ProgressBar}">
+                        <Grid x:Name="TemplateRoot">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Determinate"/>
+                                    <VisualState x:Name="Indeterminate">
+                                        <Storyboard RepeatBehavior="Forever">
+                                            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Animation" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+                                                <EasingDoubleKeyFrame KeyTime="0" Value="0.25"/>
+                                                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0.25"/>
+                                                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="0.25"/>
+                                            </DoubleAnimationUsingKeyFrames>
+                                            <PointAnimationUsingKeyFrames Storyboard.TargetName="Animation" Storyboard.TargetProperty="(UIElement.RenderTransformOrigin)">
+                                                <EasingPointKeyFrame KeyTime="0" Value="-0.5,0.5"/>
+                                                <EasingPointKeyFrame KeyTime="0:0:1" Value="0.5,0.5"/>
+                                                <EasingPointKeyFrame KeyTime="0:0:2" Value="1.5,0.5"/>
+                                            </PointAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <Border 
+                                BorderBrush="{TemplateBinding BorderBrush}" 
+                                BorderThickness="{TemplateBinding BorderThickness}" 
+                                Background="{TemplateBinding Background}" 
+                                CornerRadius="3.25"
+                             />
+                            <Rectangle x:Name="PART_Track" />
+                            <Grid x:Name="PART_Indicator" ClipToBounds="true" HorizontalAlignment="Left">
+
+                                <Border x:Name="Indicator" Background="{TemplateBinding Foreground}" CornerRadius="3.25,0,0,3.25">
+                                    <Border.Style>
+                                        <Style TargetType="Border">
+                                            <Setter Property="CornerRadius" Value="3.25,0,0,3.25"/>
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding Path=Value, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type ProgressBar}}}" Value="100">
+                                                    <Setter Property="CornerRadius" Value="3.25"/>
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </Border.Style>
+
+                                    <Rectangle x:Name="Animation" Fill="{TemplateBinding Foreground}" RenderTransformOrigin="0.5,0.5" RadiusX="3.25" RadiusY="3.25">
+                                        <Rectangle.RenderTransform>
+                                            <TransformGroup>
+                                                <ScaleTransform/>
+                                                <SkewTransform/>
+                                                <RotateTransform/>
+                                                <TranslateTransform/>
+                                            </TransformGroup>
+                                        </Rectangle.RenderTransform>
+                                    </Rectangle>
+                                </Border>
+
+
+                            </Grid>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="Orientation" Value="Vertical">
+                                <Setter Property="LayoutTransform" TargetName="TemplateRoot">
+                                    <Setter.Value>
+                                        <RotateTransform Angle="-90"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                            <Trigger Property="IsIndeterminate" Value="true">
+                                <Setter Property="Visibility" TargetName="Indicator" Value="Visible"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid Loaded="Grid_Loaded">
+        <Border x:Name="MainBorder" Background="#181818" BorderThickness="1.5" BorderBrush="#1C1C1C" CornerRadius="5">
+            <Grid>
+                <Border x:Name="Topbar" Background="#1C1C1C" BorderThickness="0" Height="30" VerticalAlignment="Top">
+                    <Label x:Name="Title" Content="Cherry" FontFamily="/CherryApp;component/Fonts/#Poppins" Foreground="#606060" HorizontalAlignment="Left" VerticalAlignment="Center" Width="64"/>
+                </Border>
+
+                <Label x:Name="LoadingData" Content="Initializing" FontFamily="/CherryApp;component/Fonts/#Poppins" Foreground="#606060" HorizontalAlignment="Center" VerticalAlignment="Top" Width="396" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="0,36,0,0"/>
+                <ProgressBar x:Name="LoadingProgress" Style="{DynamicResource ProgressBarCorners}" Background="#1C1C1C" Foreground="#151515" BorderThickness="0" HorizontalAlignment="Center" VerticalAlignment="Top" Height="25" Width="395" Margin="8,61,8,0"/>
+            </Grid>
+        </Border>
+
+
+
+
+    </Grid>
+</Window>

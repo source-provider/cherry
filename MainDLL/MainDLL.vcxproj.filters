@@ -1,0 +1,1302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="cherry">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="cherry\dependecies">
+      <UniqueIdentifier>{6830e76b-5f94-4433-9450-be54033412b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\miscellaneous">
+      <UniqueIdentifier>{9ed6ddb0-ea35-460c-bbbe-fec198717de7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\miscellaneous\utilities">
+      <UniqueIdentifier>{5ad78976-02ca-40dd-bccf-d87454f64861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\dependecies\imgui">
+      <UniqueIdentifier>{bfe904db-8cca-42dc-a677-29836b66f62e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\dependecies\curl">
+      <UniqueIdentifier>{9380551e-fd34-4e78-9255-2e15eff85ede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\dependecies\imgui\include">
+      <UniqueIdentifier>{fa338fee-ae44-4347-a093-ec9f3046c9a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\dependecies\imgui\source">
+      <UniqueIdentifier>{82983b27-0510-4391-961b-d645d001391d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\dependecies\cpr">
+      <UniqueIdentifier>{5a5e5136-96fb-4c18-b0b1-fbfdc015d059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\dependecies\cpr\include">
+      <UniqueIdentifier>{a0e1bd11-b607-4e7b-8aa0-c454977990b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\dependecies\cpr\source">
+      <UniqueIdentifier>{7a5a5de8-0d52-44c6-a592-757abca17252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\dependecies\cryptopp">
+      <UniqueIdentifier>{e1fe5970-e84e-4b47-b418-db56463306e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\dependecies\cryptopp\include">
+      <UniqueIdentifier>{8f4e60ba-7bfb-4d53-acb2-c2817f266984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\dependecies\luau">
+      <UniqueIdentifier>{f06d5e73-08a3-43e1-9b54-7bf0371f7741}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\dependecies\luau\compiler">
+      <UniqueIdentifier>{5e4b5ace-d1e8-4378-b439-76025b561c39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\dependecies\luau\vm">
+      <UniqueIdentifier>{3cebdbf1-4d9a-4fcc-8d7c-4b73ef4c8645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\dependecies\luau\vm\include">
+      <UniqueIdentifier>{37242cb6-9947-4137-831c-09574c98ec7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\dependecies\luau\vm\source">
+      <UniqueIdentifier>{20ba8d84-0620-47bc-831a-a81cc1e18675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\dependecies\luau\compiler\include">
+      <UniqueIdentifier>{6d1084f4-a02d-4536-afe0-dc8228a0e372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\dependecies\luau\compiler\source">
+      <UniqueIdentifier>{0fe721d5-04cc-4f98-bbc1-4253fe1b0954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\dependecies\zstd">
+      <UniqueIdentifier>{920a13a9-44b0-486f-a21e-277f6050bbd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\dependecies\cryptopp\lib">
+      <UniqueIdentifier>{e3f14814-3b2a-49cc-a30a-278f657de7f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\dependecies\curl\include">
+      <UniqueIdentifier>{2794bf1e-f2f7-4d6b-8665-91cb08d7e66b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\dependecies\curl\lib">
+      <UniqueIdentifier>{ef55be1a-b478-41b6-ba0f-8c1b246ef0fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\dependecies\luau\common">
+      <UniqueIdentifier>{c2cf0f18-2321-4855-af33-6800813740d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\dependecies\luau\compiler\include\Luau">
+      <UniqueIdentifier>{d8ed1ab9-2bf9-4347-8128-10f20e5f1696}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\dependecies\luau\ast">
+      <UniqueIdentifier>{9266ec5f-f08d-4332-8e69-9e62de73c923}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\dependecies\luau\ast\include">
+      <UniqueIdentifier>{fe191271-a35a-46f5-9d5a-6249c0a60844}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\dependecies\luau\ast\src">
+      <UniqueIdentifier>{0815c36f-3d23-413d-ae22-f5bce4ed0e0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\roblox">
+      <UniqueIdentifier>{b96db3e0-305d-43d4-b1be-21ff6b94aa03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\roblox\bypasses">
+      <UniqueIdentifier>{d27cb123-2fff-4cc8-9fa8-4e2fb39fee43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\roblox\bypasses\exception">
+      <UniqueIdentifier>{f1c4b322-9fbb-4ef3-9a40-2de335876060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\roblox\bypasses\console">
+      <UniqueIdentifier>{077791c5-20bd-482e-afd1-a46e8f7fa119}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\roblox\classes">
+      <UniqueIdentifier>{c0d0bb44-56eb-4d3c-ad9c-745ee20e47ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\roblox\offsets">
+      <UniqueIdentifier>{bd7e0859-5222-409e-82d6-f5d45a8644c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\roblox\scheduler">
+      <UniqueIdentifier>{180f2971-0f31-4b63-9725-9a6d432626d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\roblox\execution">
+      <UniqueIdentifier>{038fb932-d26d-4ef2-95bb-c8bc0556e3b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\roblox\environment">
+      <UniqueIdentifier>{bd6e6247-9381-479b-aa11-838e0b5e4427}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\roblox\bypasses\memcheck">
+      <UniqueIdentifier>{41415505-f4e8-42c1-9d8b-d38b7e3956ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\miscellaneous\memory">
+      <UniqueIdentifier>{b04ccee3-3424-4852-8672-f52d4d6d8413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\roblox\environment\envs">
+      <UniqueIdentifier>{f81fca59-550b-46e2-addd-7d864f3849d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\miscellaneous\hashing">
+      <UniqueIdentifier>{9d133b58-680c-4ca6-a6b6-75159813623a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\roblox\environment\envs\libararies">
+      <UniqueIdentifier>{0914f958-b43b-41f7-b47d-1432ec1cdad1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\dependecies\lz4">
+      <UniqueIdentifier>{7f785de1-6ecf-4e2d-8e38-2cf578bd1537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\dependecies\lz4\include">
+      <UniqueIdentifier>{c9f717bf-cafb-4565-accf-9b4f58a645da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\dependecies\lz4\src">
+      <UniqueIdentifier>{2b226e8e-613c-48ba-ac65-1e757bb08004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\roblox\classes\proto">
+      <UniqueIdentifier>{e892164e-0803-45c0-840e-6d030c03a596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\dependecies\websocketpp">
+      <UniqueIdentifier>{46346e4d-e17c-484c-8a08-994d68e43163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\dependecies\websocketpp\include">
+      <UniqueIdentifier>{6fed7f1d-26cf-4877-a137-87c5bc437be8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cherry\dependecies\websocketpp\src">
+      <UniqueIdentifier>{08756756-a636-4ae4-813d-cb971156ad76}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source.cpp">
+      <Filter>cherry</Filter>
+    </ClCompile>
+    <ClCompile Include="task_scheduler.cpp">
+      <Filter>cherry\roblox\scheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="exception_handler.cpp">
+      <Filter>cherry\roblox\bypasses\exception</Filter>
+    </ClCompile>
+    <ClCompile Include="cpr\auth.cpp">
+      <Filter>cherry\dependecies\cpr\source</Filter>
+    </ClCompile>
+    <ClCompile Include="cpr\cookies.cpp">
+      <Filter>cherry\dependecies\cpr\source</Filter>
+    </ClCompile>
+    <ClCompile Include="cpr\cprtypes.cpp">
+      <Filter>cherry\dependecies\cpr\source</Filter>
+    </ClCompile>
+    <ClCompile Include="cpr\digest.cpp">
+      <Filter>cherry\dependecies\cpr\source</Filter>
+    </ClCompile>
+    <ClCompile Include="cpr\error.cpp">
+      <Filter>cherry\dependecies\cpr\source</Filter>
+    </ClCompile>
+    <ClCompile Include="cpr\multipart.cpp">
+      <Filter>cherry\dependecies\cpr\source</Filter>
+    </ClCompile>
+    <ClCompile Include="cpr\parameters.cpp">
+      <Filter>cherry\dependecies\cpr\source</Filter>
+    </ClCompile>
+    <ClCompile Include="cpr\payload.cpp">
+      <Filter>cherry\dependecies\cpr\source</Filter>
+    </ClCompile>
+    <ClCompile Include="cpr\proxies.cpp">
+      <Filter>cherry\dependecies\cpr\source</Filter>
+    </ClCompile>
+    <ClCompile Include="cpr\session.cpp">
+      <Filter>cherry\dependecies\cpr\source</Filter>
+    </ClCompile>
+    <ClCompile Include="cpr\ssl_options.cpp">
+      <Filter>cherry\dependecies\cpr\source</Filter>
+    </ClCompile>
+    <ClCompile Include="cpr\timeout.cpp">
+      <Filter>cherry\dependecies\cpr\source</Filter>
+    </ClCompile>
+    <ClCompile Include="cpr\util.cpp">
+      <Filter>cherry\dependecies\cpr\source</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_draw.cpp">
+      <Filter>cherry\dependecies\imgui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_impl_dx11.cpp">
+      <Filter>cherry\dependecies\imgui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_widgets.cpp">
+      <Filter>cherry\dependecies\imgui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\TextEditor.cpp">
+      <Filter>cherry\dependecies\imgui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui.cpp">
+      <Filter>cherry\dependecies\imgui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_demo.cpp">
+      <Filter>cherry\dependecies\imgui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\VM\src\lbitlib.cpp">
+      <Filter>cherry\dependecies\luau\vm\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\VM\src\lbuiltins.cpp">
+      <Filter>cherry\dependecies\luau\vm\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\VM\src\lcorolib.cpp">
+      <Filter>cherry\dependecies\luau\vm\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\VM\src\ldblib.cpp">
+      <Filter>cherry\dependecies\luau\vm\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\VM\src\ldebug.cpp">
+      <Filter>cherry\dependecies\luau\vm\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\VM\src\ldo.cpp">
+      <Filter>cherry\dependecies\luau\vm\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\VM\src\lfunc.cpp">
+      <Filter>cherry\dependecies\luau\vm\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\VM\src\lgc.cpp">
+      <Filter>cherry\dependecies\luau\vm\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\VM\src\lgcdebug.cpp">
+      <Filter>cherry\dependecies\luau\vm\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\VM\src\linit.cpp">
+      <Filter>cherry\dependecies\luau\vm\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\VM\src\lmathlib.cpp">
+      <Filter>cherry\dependecies\luau\vm\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\VM\src\lmem.cpp">
+      <Filter>cherry\dependecies\luau\vm\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\VM\src\lnumprint.cpp">
+      <Filter>cherry\dependecies\luau\vm\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\VM\src\lobject.cpp">
+      <Filter>cherry\dependecies\luau\vm\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\VM\src\loslib.cpp">
+      <Filter>cherry\dependecies\luau\vm\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\VM\src\lperf.cpp">
+      <Filter>cherry\dependecies\luau\vm\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\VM\src\lstate.cpp">
+      <Filter>cherry\dependecies\luau\vm\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\VM\src\lstring.cpp">
+      <Filter>cherry\dependecies\luau\vm\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\VM\src\lstrlib.cpp">
+      <Filter>cherry\dependecies\luau\vm\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\VM\src\ltable.cpp">
+      <Filter>cherry\dependecies\luau\vm\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\VM\src\ltablib.cpp">
+      <Filter>cherry\dependecies\luau\vm\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\VM\src\ltm.cpp">
+      <Filter>cherry\dependecies\luau\vm\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\VM\src\ludata.cpp">
+      <Filter>cherry\dependecies\luau\vm\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\VM\src\lutf8lib.cpp">
+      <Filter>cherry\dependecies\luau\vm\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\VM\src\lvmexecute.cpp">
+      <Filter>cherry\dependecies\luau\vm\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\VM\src\lvmload.cpp">
+      <Filter>cherry\dependecies\luau\vm\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\VM\src\lvmutils.cpp">
+      <Filter>cherry\dependecies\luau\vm\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\VM\src\lapi.cpp">
+      <Filter>cherry\dependecies\luau\vm\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\VM\src\laux.cpp">
+      <Filter>cherry\dependecies\luau\vm\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\VM\src\lbaselib.cpp">
+      <Filter>cherry\dependecies\luau\vm\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\Compiler\src\BuiltinFolding.cpp">
+      <Filter>cherry\dependecies\luau\compiler\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\Compiler\src\Builtins.cpp">
+      <Filter>cherry\dependecies\luau\compiler\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\Compiler\src\BytecodeBuilder.cpp">
+      <Filter>cherry\dependecies\luau\compiler\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\Compiler\src\Compiler.cpp">
+      <Filter>cherry\dependecies\luau\compiler\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\Compiler\src\ConstantFolding.cpp">
+      <Filter>cherry\dependecies\luau\compiler\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\Compiler\src\CostModel.cpp">
+      <Filter>cherry\dependecies\luau\compiler\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\Compiler\src\lcode.cpp">
+      <Filter>cherry\dependecies\luau\compiler\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\Compiler\src\TableShape.cpp">
+      <Filter>cherry\dependecies\luau\compiler\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\Compiler\src\ValueTracking.cpp">
+      <Filter>cherry\dependecies\luau\compiler\source</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\ast\src\Lexer.cpp">
+      <Filter>cherry\dependecies\luau\ast\src</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\ast\src\Location.cpp">
+      <Filter>cherry\dependecies\luau\ast\src</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\ast\src\Parser.cpp">
+      <Filter>cherry\dependecies\luau\ast\src</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\ast\src\StringUtils.cpp">
+      <Filter>cherry\dependecies\luau\ast\src</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\ast\src\TimeTrace.cpp">
+      <Filter>cherry\dependecies\luau\ast\src</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\ast\src\Ast.cpp">
+      <Filter>cherry\dependecies\luau\ast\src</Filter>
+    </ClCompile>
+    <ClCompile Include="luau\ast\src\Confusables.cpp">
+      <Filter>cherry\dependecies\luau\ast\src</Filter>
+    </ClCompile>
+    <ClCompile Include="console.cpp">
+      <Filter>cherry\roblox\bypasses\console</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities.cpp">
+      <Filter>cherry\miscellaneous\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="memcheck.cpp">
+      <Filter>cherry\roblox\bypasses\memcheck</Filter>
+    </ClCompile>
+    <ClCompile Include="execution.cpp">
+      <Filter>cherry\roblox\execution</Filter>
+    </ClCompile>
+    <ClCompile Include="memory.cpp">
+      <Filter>cherry\miscellaneous\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="environment.cpp">
+      <Filter>cherry\roblox\environment</Filter>
+    </ClCompile>
+    <ClCompile Include="eenv.cpp">
+      <Filter>cherry\roblox\environment\envs</Filter>
+    </ClCompile>
+    <ClCompile Include="einit.cpp">
+      <Filter>cherry\roblox\environment\envs</Filter>
+    </ClCompile>
+    <ClCompile Include="instance.hpp">
+      <Filter>cherry\roblox\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="namepipe.hpp">
+      <Filter>cherry\roblox\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="eclosure.cpp">
+      <Filter>cherry\roblox\environment\envs</Filter>
+    </ClCompile>
+    <ClCompile Include="econsole.cpp">
+      <Filter>cherry\roblox\environment\envs</Filter>
+    </ClCompile>
+    <ClCompile Include="efilesystem.cpp">
+      <Filter>cherry\roblox\environment\envs</Filter>
+    </ClCompile>
+    <ClCompile Include="einput.cpp">
+      <Filter>cherry\roblox\environment\envs</Filter>
+    </ClCompile>
+    <ClCompile Include="emetatable.cpp">
+      <Filter>cherry\roblox\environment\envs</Filter>
+    </ClCompile>
+    <ClCompile Include="ehttp.cpp">
+      <Filter>cherry\roblox\environment\envs</Filter>
+    </ClCompile>
+    <ClCompile Include="fnv.hpp">
+      <Filter>cherry\miscellaneous\hashing</Filter>
+    </ClCompile>
+    <ClCompile Include="ecache.cpp">
+      <Filter>cherry\roblox\environment\envs\libararies</Filter>
+    </ClCompile>
+    <ClCompile Include="edebug.cpp">
+      <Filter>cherry\roblox\environment\envs\libararies</Filter>
+    </ClCompile>
+    <ClCompile Include="ecrypt.cpp">
+      <Filter>cherry\roblox\environment\envs\libararies</Filter>
+    </ClCompile>
+    <ClCompile Include="lz4\lz4.c">
+      <Filter>cherry\dependecies\lz4\src</Filter>
+    </ClCompile>
+    <ClCompile Include="lz4\lz4file.c">
+      <Filter>cherry\dependecies\lz4\src</Filter>
+    </ClCompile>
+    <ClCompile Include="lz4\lz4frame.c">
+      <Filter>cherry\dependecies\lz4\src</Filter>
+    </ClCompile>
+    <ClCompile Include="lz4\lz4hc.c">
+      <Filter>cherry\dependecies\lz4\src</Filter>
+    </ClCompile>
+    <ClCompile Include="eothers.cpp">
+      <Filter>cherry\roblox\environment\envs</Filter>
+    </ClCompile>
+    <ClCompile Include="edrawing.cpp">
+      <Filter>cherry\roblox\environment\envs\libararies</Filter>
+    </ClCompile>
+    <ClCompile Include="ewebsocket.cpp">
+      <Filter>cherry\roblox\environment\envs\libararies</Filter>
+    </ClCompile>
+    <ClCompile Include="drawing_lib_structs.hpp">
+      <Filter>cherry\miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="fonts.hpp">
+      <Filter>cherry\miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="echerry.cpp">
+      <Filter>cherry\roblox\environment\envs\libararies</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="offsets.hpp">
+      <Filter>cherry\roblox\offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="encryptions.hpp">
+      <Filter>cherry\roblox\offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="configuration.hpp">
+      <Filter>cherry\miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="xxhash.h">
+      <Filter>cherry\dependecies\zstd</Filter>
+    </ClInclude>
+    <ClInclude Include="zstd.h">
+      <Filter>cherry\dependecies\zstd</Filter>
+    </ClInclude>
+    <ClInclude Include="task_scheduler.hpp">
+      <Filter>cherry\roblox\scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="exception_handler.hpp">
+      <Filter>cherry\roblox\bypasses\exception</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\api.h">
+      <Filter>cherry\dependecies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\auth.h">
+      <Filter>cherry\dependecies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\body.h">
+      <Filter>cherry\dependecies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\cookies.h">
+      <Filter>cherry\dependecies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\cpr.h">
+      <Filter>cherry\dependecies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\util.h">
+      <Filter>cherry\dependecies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\cprtypes.h">
+      <Filter>cherry\dependecies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\curlholder.h">
+      <Filter>cherry\dependecies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\defines.h">
+      <Filter>cherry\dependecies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\digest.h">
+      <Filter>cherry\dependecies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\error.h">
+      <Filter>cherry\dependecies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\HttpStatus.hpp">
+      <Filter>cherry\dependecies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\low_speed.h">
+      <Filter>cherry\dependecies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\max_redirects.h">
+      <Filter>cherry\dependecies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\multipart.h">
+      <Filter>cherry\dependecies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\parameters.h">
+      <Filter>cherry\dependecies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\payload.h">
+      <Filter>cherry\dependecies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\proxies.h">
+      <Filter>cherry\dependecies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\response.h">
+      <Filter>cherry\dependecies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\session.h">
+      <Filter>cherry\dependecies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\ssl_options.h">
+      <Filter>cherry\dependecies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cpr\timeout.h">
+      <Filter>cherry\dependecies\cpr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_truetype.h">
+      <Filter>cherry\dependecies\imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\stb_rect_pack.h">
+      <Filter>cherry\dependecies\imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\stb_textedit.h">
+      <Filter>cherry\dependecies\imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\stb_truetype.h">
+      <Filter>cherry\dependecies\imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\TextEditor.h">
+      <Filter>cherry\dependecies\imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imconfig.h">
+      <Filter>cherry\dependecies\imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui.h">
+      <Filter>cherry\dependecies\imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui_impl_dx11.h">
+      <Filter>cherry\dependecies\imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui_internal.h">
+      <Filter>cherry\dependecies\imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_rectpack.h">
+      <Filter>cherry\dependecies\imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_textedit.h">
+      <Filter>cherry\dependecies\imgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\3way.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\adler32.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\adv_simd.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\aes.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\aes_armv4.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\algebra.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\algparam.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\arc4.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\argnames.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\aria.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\arm_simd.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\asn.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\authenc.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\base32.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\base64.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\basecode.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\bench.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\blake2.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\blowfish.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\blumshub.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\camellia.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\cast.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\cbcmac.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\ccm.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\chacha.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\chachapoly.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\cham.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\channels.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\cmac.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\config.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\cpu.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\crc.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\cryptlib.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\darn.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\default.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\des.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\dh.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\dh2.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\dll.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\dmac.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\donna.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\donna_32.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\donna_64.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\donna_sse.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\drbg.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\dsa.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\eax.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\ec2n.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\eccrypto.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\ecp.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\ecpoint.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\elgamal.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\emsa2.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\eprecomp.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\esign.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\factory.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\fhmqv.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\files.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\filters.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\fips140.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\fltrimpl.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\gcm.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\gf2_32.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\gf2n.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\gf256.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\gfpcrypt.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\gost.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\gzip.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\hashfwd.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\hc128.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\hc256.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\hex.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\hight.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\hkdf.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\hmac.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\hmqv.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\hrtimer.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\ida.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\idea.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\integer.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\iterhash.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\kalyna.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\keccak.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\lea.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\lubyrack.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\luc.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\mars.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\md2.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\md4.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\md5.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\mdc.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\mersenne.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\misc.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\modarith.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\modes.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\modexppc.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\mqueue.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\mqv.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\naclite.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\nbtheory.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\nr.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\oaep.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\oids.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\osrng.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\ossig.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\padlkrng.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\panama.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\pch.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\pkcspad.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\poly1305.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\polynomi.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\ppc_simd.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\pssr.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\pubkey.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\pwdbased.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\queue.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\rabbit.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\rabin.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\randpool.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\rc2.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\rc5.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\rc6.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\rdrand.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\resource.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\rijndael.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\ripemd.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\rng.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\rsa.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\rw.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\safer.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\salsa.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\scrypt.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\seal.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\secblock.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\seckey.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\seed.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\serpent.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\serpentp.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\sha.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\sha3.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\shacal2.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\shake.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\shark.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\simeck.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\simon.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\simple.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\siphash.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\skipjack.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\sm3.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\sm4.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\smartptr.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\sosemanuk.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\speck.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\square.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\stdcpp.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\strciphr.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\tea.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\threefish.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\tiger.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\trap.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\trunhash.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\ttmac.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\tweetnacl.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\twofish.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\validate.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\vmac.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\wake.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\whrlpool.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\words.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\xed25519.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\xtr.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\xtrcrypt.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\zdeflate.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\zinflate.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cryptopp\include\zlib.h">
+      <Filter>cherry\dependecies\cryptopp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\urlapi.h">
+      <Filter>cherry\dependecies\curl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\curl.h">
+      <Filter>cherry\dependecies\curl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\curlver.h">
+      <Filter>cherry\dependecies\curl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\easy.h">
+      <Filter>cherry\dependecies\curl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\mprintf.h">
+      <Filter>cherry\dependecies\curl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\multi.h">
+      <Filter>cherry\dependecies\curl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\stdcheaders.h">
+      <Filter>cherry\dependecies\curl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\system.h">
+      <Filter>cherry\dependecies\curl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="curl\typecheck-gcc.h">
+      <Filter>cherry\dependecies\curl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\VM\include\lua.h">
+      <Filter>cherry\dependecies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\VM\include\luaconf.h">
+      <Filter>cherry\dependecies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\VM\include\lualib.h">
+      <Filter>cherry\dependecies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\Common\include\Luau\Bytecode.h">
+      <Filter>cherry\dependecies\luau\common</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\Common\include\Luau\Common.h">
+      <Filter>cherry\dependecies\luau\common</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\Common\include\Luau\DenseHash.h">
+      <Filter>cherry\dependecies\luau\common</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\Common\include\Luau\ExperimentalFlags.h">
+      <Filter>cherry\dependecies\luau\common</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\Compiler\include\luacode.h">
+      <Filter>cherry\dependecies\luau\compiler\include</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\Compiler\include\Luau\BytecodeBuilder.h">
+      <Filter>cherry\dependecies\luau\compiler\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\Compiler\include\Luau\Compiler.h">
+      <Filter>cherry\dependecies\luau\compiler\include\Luau</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\Compiler\src\BuiltinFolding.h">
+      <Filter>cherry\dependecies\luau\compiler\include</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\Compiler\src\Builtins.h">
+      <Filter>cherry\dependecies\luau\compiler\include</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\Compiler\src\ConstantFolding.h">
+      <Filter>cherry\dependecies\luau\compiler\include</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\Compiler\src\CostModel.h">
+      <Filter>cherry\dependecies\luau\compiler\include</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\Compiler\src\TableShape.h">
+      <Filter>cherry\dependecies\luau\compiler\include</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\Compiler\src\ValueTracking.h">
+      <Filter>cherry\dependecies\luau\compiler\include</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\VM\src\lapi.h">
+      <Filter>cherry\dependecies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\VM\src\lbuiltins.h">
+      <Filter>cherry\dependecies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\VM\src\lbytecode.h">
+      <Filter>cherry\dependecies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\VM\src\lcommon.h">
+      <Filter>cherry\dependecies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\VM\src\ldebug.h">
+      <Filter>cherry\dependecies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\VM\src\ldo.h">
+      <Filter>cherry\dependecies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\VM\src\lgc.h">
+      <Filter>cherry\dependecies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\VM\src\lfunc.h">
+      <Filter>cherry\dependecies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\VM\src\lmem.h">
+      <Filter>cherry\dependecies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\VM\src\lobject.h">
+      <Filter>cherry\dependecies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\VM\src\lnumutils.h">
+      <Filter>cherry\dependecies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\VM\src\lstate.h">
+      <Filter>cherry\dependecies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\VM\src\lstring.h">
+      <Filter>cherry\dependecies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\VM\src\ltable.h">
+      <Filter>cherry\dependecies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\VM\src\ltm.h">
+      <Filter>cherry\dependecies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\VM\src\ludata.h">
+      <Filter>cherry\dependecies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\VM\src\lvm.h">
+      <Filter>cherry\dependecies\luau\vm\include</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\ast\include\Luau\Ast.h">
+      <Filter>cherry\dependecies\luau\ast\include</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\ast\include\Luau\Confusables.h">
+      <Filter>cherry\dependecies\luau\ast\include</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\ast\include\Luau\Lexer.h">
+      <Filter>cherry\dependecies\luau\ast\include</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\ast\include\Luau\Location.h">
+      <Filter>cherry\dependecies\luau\ast\include</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\ast\include\Luau\ParseOptions.h">
+      <Filter>cherry\dependecies\luau\ast\include</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\ast\include\Luau\Parser.h">
+      <Filter>cherry\dependecies\luau\ast\include</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\ast\include\Luau\ParseResult.h">
+      <Filter>cherry\dependecies\luau\ast\include</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\ast\include\Luau\StringUtils.h">
+      <Filter>cherry\dependecies\luau\ast\include</Filter>
+    </ClInclude>
+    <ClInclude Include="luau\ast\include\Luau\TimeTrace.h">
+      <Filter>cherry\dependecies\luau\ast\include</Filter>
+    </ClInclude>
+    <ClInclude Include="console.hpp">
+      <Filter>cherry\roblox\bypasses\console</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities.hpp">
+      <Filter>cherry\miscellaneous\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="memcheck.hpp">
+      <Filter>cherry\roblox\bypasses\memcheck</Filter>
+    </ClInclude>
+    <ClInclude Include="execution.hpp">
+      <Filter>cherry\roblox\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="environment.hpp">
+      <Filter>cherry\roblox\environment</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.hpp">
+      <Filter>cherry\miscellaneous\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="lz4\lz4hc.h">
+      <Filter>cherry\dependecies\lz4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="lz4\lz4.h">
+      <Filter>cherry\dependecies\lz4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="lz4\lz4file.h">
+      <Filter>cherry\dependecies\lz4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="lz4\lz4frame.h">
+      <Filter>cherry\dependecies\lz4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="lz4\lz4frame_static.h">
+      <Filter>cherry\dependecies\lz4\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libzstd_static.lib">
+      <Filter>cherry\dependecies\zstd</Filter>
+    </Library>
+    <Library Include="d3d11.lib">
+      <Filter>cherry\dependecies\imgui</Filter>
+    </Library>
+    <Library Include="d3dx11.lib">
+      <Filter>cherry\dependecies\imgui</Filter>
+    </Library>
+    <Library Include="cryptlib.lib">
+      <Filter>cherry\dependecies\cryptopp\lib</Filter>
+    </Library>
+    <Library Include="libcurl_a.lib">
+      <Filter>cherry\dependecies\curl\lib</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

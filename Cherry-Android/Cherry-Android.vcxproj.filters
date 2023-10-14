@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{beffa25d-72ba-471b-ad16-0e74e46a83df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\roblox">
+      <UniqueIdentifier>{ac6fbbc0-3129-44ea-93d5-224860addaea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\misc">
+      <UniqueIdentifier>{f9d4612e-ff92-4faa-a4f5-fe9c475b84b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\misc\entry">
+      <UniqueIdentifier>{c746e81c-341d-4885-97f3-568064749b32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\misc\utilities">
+      <UniqueIdentifier>{8907618c-034a-446c-9e8b-06d19a68ff73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dependencies">
+      <UniqueIdentifier>{41de775c-db5b-4a07-9506-474786135cb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dependencies\dobby">
+      <UniqueIdentifier>{cbee0c8e-7f04-40b4-873c-14e601e2a17c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dependencies\dobby\lib">
+      <UniqueIdentifier>{be13b8f4-c6f2-4a99-a757-d3d514624f12}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="entry.h">
+      <Filter>src\misc\entry</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities.hpp">
+      <Filter>src\misc\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="dobby\dobby.h">
+      <Filter>src\dependencies\dobby</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entry.cpp">
+      <Filter>src\misc\entry</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="dobby\lib\libdobby.so">
+      <Filter>src\dependencies\dobby\lib</Filter>
+    </Library>
+    <Library Include="dobby\lib\libdobby.a">
+      <Filter>src\dependencies\dobby\lib</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
